@@ -9,10 +9,12 @@ try:
     print("modulus:",number1%number2)
     print("multiplication:",number1*number2)
 
-    if number1!=0:
+    if number2!=0:
      print("division:",number2/number1)
+        print("modulus:",number2%number1)
     else:
-     print("division not possible")
+     print("division and modulus not possible")
 
 except ValueError:
+
   print("please enter valid numeric value not a negative values nor zeros")
